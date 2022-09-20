@@ -10,9 +10,8 @@ class Mahasiswa extends Model
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $useTimestamps = true;
+    protected $allowedFields = ['npm', 'nama', 'alamat'];
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
-    protected $updatedField  = 'updated_at';
-
-    
+    protected $updatedField  = 'update_at';
 }
