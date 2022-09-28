@@ -1,1 +1,4 @@
-<h3>Nur Mita Utami 2017051058</h3>
+<?= $this->extend('template') ?>
+<?= $this->section('content') ?>
+Halaman about
+<?= $this->endSection() ?>
